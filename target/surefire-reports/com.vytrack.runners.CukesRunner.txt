@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 839.035 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
+Driver user(Account types)  Time elapsed: 115.079 s  <<< FAILURE!
+java.lang.AssertionError
+
+Sales manager user(Account types)  Time elapsed: 381.886 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MY', ip: '172.17.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Akif\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eeffee8beecfc7dc70936bd4b0a0bff7
+
+Store manager user(Account types)  Time elapsed: 341.163 s  <<< FAILURE!
+java.lang.AssertionError
+
